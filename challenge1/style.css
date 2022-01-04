@@ -1,0 +1,36 @@
+.body-web {
+  background-color: rgb(27, 5, 48);
+}
+
+h1 {
+  color: white;
+}
+
+.main-title {
+  display: flex;
+  font-family: cursive;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  display: flex;
+  color: white;
+  font-family: sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+.picprops {
+  border-radius: 15px;
+  display: flex;
+  width: 20vw;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw;
+}
