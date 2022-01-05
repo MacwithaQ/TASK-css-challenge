@@ -1,12 +1,16 @@
 /* Add your code in each class */
 .container {
+  position: absolute;
   display: flex;
   flex-direction: column;
+  align-self: flex-start;
   width: 400px;
   height: 300px;
 }
 
 .head {
+  position: sticky;
+  top: 0;
   font-family: fantasy;
   font-weight: 700;
   background-color: #bad9b5;
@@ -15,6 +19,7 @@
 }
 
 .list {
+  font-family: Georgia, "Times New Roman", Times, serif;
   overflow: scroll;
   font-size: small;
 }
