@@ -1,11 +1,27 @@
 /* Add your code in each class */
 .container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
 }
+
 .head {
+  font-family: fantasy;
+  font-weight: 700;
+  background-color: #bad9b5;
+  text-align: center;
+  padding: 5px;
+}
+
+.list {
+  overflow: scroll;
+  font-size: small;
 }
 
 .row {
-  /* .row is used in ./index.js not in the html filee */
+  /* .row is used in ./index.js not in the html file */
+  background-color: #eff7cf;
 }
 
 /* This is a gift - Does not need editing */
